@@ -1,0 +1,23 @@
+1. `getElementById(id)`: Este método se utiliza para obtener un elemento del DOM por su identificador único (id). Devuelve el primer elemento cuyo id coincida con el valor proporcionado. Si no se encuentra ningún elemento con el id especificado, devuelve `null`.
+
+2. `getElementsByClassName(className)`: Este método se utiliza para obtener una lista de elementos que tienen una clase específica. Devuelve una colección HTML de todos los elementos cuya clase coincide con el valor proporcionado.
+
+3. `getElementsByTagName(tagName)`: Este método se utiliza para obtener una lista de elementos con un nombre de etiqueta específico. Devuelve una colección HTML de todos los elementos que coinciden con el nombre de etiqueta especificado.
+
+4. `querySelector(selector)`: Este método devuelve el primer elemento que coincida con un selector CSS específico. Puedes usar selectores CSS como `#id`, `.class`, `tag`, etc., para seleccionar elementos.
+
+5. `querySelectorAll(selector)`: Este método devuelve una lista de todos los elementos que coinciden con un selector CSS específico. Al igual que `querySelector()`, puedes utilizar selectores CSS para seleccionar elementos.
+
+6. `createElement(tagName)`: Este método crea un nuevo elemento HTML con el nombre de etiqueta especificado. Puedes usar este elemento para construir contenido dinámicamente antes de agregarlo al DOM.
+
+7. `appendChild(element)`: Este método se utiliza para agregar un nuevo elemento como hijo de otro elemento existente. Puedes usarlo para insertar un nuevo elemento dentro de otro.
+
+8. `removeChild(element)`: Este método se utiliza para eliminar un elemento hijo de otro elemento. Debes proporcionar el elemento hijo que deseas eliminar.
+
+9. `setAttribute(name, value)`: Este método se utiliza para establecer el valor de un atributo en un elemento. Puedes usarlo para agregar o modificar atributos en un elemento.
+
+10. `removeAttribute(name)`: Este método se utiliza para eliminar un atributo de un elemento. Debes proporcionar el nombre del atributo que deseas eliminar.
+
+11. `addEventListener(event, callback)`: Este método se utiliza para agregar un evento a un elemento. Puedes proporcionar el nombre del evento (como "click", "mouseover", etc.) y una función de devolución de llamada que se ejecutará cuando ocurra el evento.
+
+12. `removeEventListener(event, callback)`: Este método se utiliza para eliminar un evento de un elemento. Debes proporcionar el nombre del evento y la misma función de devolución de llamada que se agregó previamente con `addEventListener()`.

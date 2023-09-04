@@ -12,6 +12,8 @@ form.addEventListener('submit', function (event){
 
     nuevaTareaLi.addEventListener('click', function(){
         nuevaTareaLi.classList.toggle('completada');
+        this.style.textDecoration = 'line-through';
+        this.style.color = 'red';
     })
 
     tareasLista.appendChild(nuevaTareaLi);
@@ -19,7 +21,7 @@ form.addEventListener('submit', function (event){
     document.getElementById('tarea').value = ' ';
 
     eliminarCompletadas.addEventListener('click', function(){
-        const tareasCompletadas = document.querySelectorAll('completadas')
+        const tareasCompletadas = document.querySelectorAll('.completada')
     
         tareasCompletadas.forEach(function(tareaCompletada){
             tareaCompletada.remove();
